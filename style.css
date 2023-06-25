@@ -52,6 +52,10 @@ body {
   justify-content: space-between;
   background: #988ca9;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+  z-index: 999;
+  position: sticky;
+  top: 0;
+  left: 0;
 }
 
 #navbar {
@@ -114,9 +118,12 @@ body {
 #hero button {
     background-image: url("img/25-256648_this-is-a-picture-of-a-rocket-that.jpeg");
     background-color: #000;
-    color: #000;
-    font-weight: 1000;
+    color: #ffff;
+    font-weight: 700;
     border: 0;
-    padding: 15px 15px 20px 15px;
+    padding: 15px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    font-size: 15px;
 }
 
